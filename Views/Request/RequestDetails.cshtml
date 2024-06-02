@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = @Model.Request.Name;
+}
+
+
+<section class="project-single-section padding">
+    <div class="container">
+        <div class="row project-single-wrap align-items-center">
+            <div class="col-md-6 sm-padding">
+                <img src="@Model.Request.ImageUrl" style="height:300px;" alt="img">
+            </div>
+            <div class="col-md-6 sm-padding">
+                <div class="project-single-content">
+                    <h2>@Model.Request.Name</h2>
+                    <p>@Model.Request.Description</p>
+                    <ul class="project-details">
+                        <li><span>Специалист</span>: @Model.Request.SpecialistType</li>
+                        <li><span>Заявител</span>: @Model.Request.RequestorName</li>
+                        <li><span>Бюджет</span>: @string.Format("{0:C}", Model.Request.Budget)</li>
+                        <li><span>Начална дата</span>: @Model.Request.StartDate</li>
+                        <li><span>Крайна дата</span>: @(Model.Request.EndDate != null ? Model.Request.EndDate : "Проектът не е завършен")</li>
+                    </ul>
+                </div>
+                @if (User.Identity?.Name == Model.Request.RequestorName)
+                {
+                    <div class="operationBtns">
+                        <a asp-controller="Request" asp-action="EditRequest" asp-route-id="@Model.Request.Id"> <i class="editBtn fa-solid fa-pen-to-square fa-2xl"></i></a>
+                        <a asp-controller="Request" asp-action="DeleteRequest" asp-route-id="@Model.Request.Id"> <i class="deleteBtn fa-solid fa-trash fa-2xl"></i></a>
+                    </div>
+                }
+                @if (User.IsInRole("Worker") && (Model.CurrUser.SpecialtyId == Model.Request.SpecialtyId))
+                {
+                    <div class="workerBtns">
+                        @if (Model.Request.Status == "Accepted")
+                        {
+                            <a class="btn-success btn" asp-area="Worker" asp-controller="Worker" asp-action="FinishRequest" asp-route-id="@Model.Request.Id"> Завърши заявката</a>
+                        }
+                        @if (Model.Request.Status == "Assigned")
+                        {
+                            <a class="btn-warning btn" asp-area="Worker" asp-controller="Worker" asp-action="AcceptRequest" asp-route-id="@Model.Request.Id"> Приеми заявката</a>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

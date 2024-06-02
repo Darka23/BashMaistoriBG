@@ -1,0 +1,50 @@
+﻿@model BashMaistoriBG.ViewModels.UserEditViewModel
+
+@{
+    ViewData["Title"] = "Редактирай потребител";
+}
+
+<h1 class="row mt-5">Редактирай потребител</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditUser">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label">Потребителско име</label>
+                <input asp-for="UserName" class="form-control" placeholder="@Model.UserName" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label">Първо име</label>
+                <input asp-for="FirstName" class="form-control" placeholder="@Model.FirstName" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label">Фамилно име</label>
+                <input asp-for="LastName" class="form-control" placeholder="@Model.LastName" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label">Телефонен номер</label>
+                <input asp-for="PhoneNumber" class="form-control" placeholder="@Model.PhoneNumber" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpecialtyId" class="control-label">Специалност</label>
+                <select asp-for="SpecialtyId" class="form-control" asp-items="ViewBag.SpecialtyId" style="color:red; height:100px;"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Редактирай" class="w-100 btn btn-lg logBtn" />
+                <a class="btn btn-primary mt-3 mb-2" asp-action="UsersList">Обратно в списъка</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

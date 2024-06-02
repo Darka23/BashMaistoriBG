@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Всички завършени проекти";
+}
+
+<section class="page-header padding">
+    <div class="container">
+        <div class="page-content text-center">
+            <h2>Завършени проекти</h2>
+        </div>
+    </div>
+</section>
+
+<form asp-controller="Request" asp-action="Projects" class="search-form mt-4 mb-4" method="get" style="width:200px; margin:auto">
+        <input type="text" class="form-control" name="requestName" placeholder="Име на заявката">
+        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+<div class="sort-btns">
+        @if (ViewData["NameSortParam"] != "desc")
+        {
+            <a asp-area="" asp-action="Projects" asp-controller="Request" asp-route-sortOrder="@ViewData["NameSortParam"]" class="btn btn-primary" style="background-color:#ff7607; border:none;"><i class="fa-solid fa-arrow-up-a-z mr-2"></i>Сортирай по име</a>
+        }
+        else
+        {
+            <a asp-area="" asp-action="Projects" asp-controller="Request" asp-route-sortOrder="@ViewData["NameSortParam"]" class="btn btn-primary" style="background-color:#ff7607; border:none;"><i class="fa-solid fa-arrow-down-z-a mr-2"></i>Сортирай по име</a>
+        }
+        <a asp-area="" asp-action="Projects" asp-controller="Request" asp-route-sortOrder="@ViewData["DateSortParam"]" class="btn btn-primary" style="background-color:#ff7607; border:none;"><i class="fa-solid fa-calendar-days mr-2"></i>Сортирай по дата на задаване </a>
+        <a asp-area="" asp-action="Projects" asp-controller="Request" asp-route-sortOrder="@ViewData["BudgetSortParam"]" class="btn btn-primary" style="background-color:#ff7607; border:none;"><i class="fa-solid fa-dollar-sign mr-2"></i>Сортирай по бюджет</a>
+    </div>
+
+<section class="projects-section padding">
+    <div class="container">
+        <div class="row">
+            @if (Model.Count == 0)
+            {
+                <h1>Няма завършени проекти</h1>
+            }
+            else
+            {
+                @foreach (var project in Model)
+                {
+                    <div class="col-lg-4 col-sm-6 padding-15">
+                        <div class="project-item h-100">
+                            <img src="@project.ImageUrl" class="h-100" style="object-fit:cover" alt="projects">
+                            <div class="overlay"></div>
+                            <a asp-action="ProjectDetails" asp-controller="Request" asp-route-id="@project.Id" class="view-icon ajax-popup-link"> <i class="fas fa-expand"></i></a>
+                            <div class="projects-content">
+                                <a asp-action="ProjectDetails" asp-controller="Request" asp-route-id="@project.Id" class="category">@project.SpecialistType</a>
+                                <h3><a asp-action="ProjectDetails" asp-controller="Request" asp-route-id="@project.Id" class="tittle">@project.Name</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>

@@ -1,0 +1,158 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+
+}
+
+.regBtn {
+    background-color: #ff7607;
+    color: white;
+    margin-top:30px
+}
+
+.logBtn {
+    background-color: #ff7607;
+    color: white;
+}
+
+.loginForm {
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.regForm {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+.logHead {
+    display: flex;
+    justify-content: center;
+}
+
+.reqHead {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.editBtn {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #8D9AA8;
+}
+
+.deleteBtn {
+    text-decoration: none;
+    color: #8D9AA8;
+}
+
+
+.editBtn:hover {
+    color: lightgreen
+}
+
+.deleteBtn:hover{
+    color: lightcoral
+}
+
+.operationBtns{
+    margin-top: 20px;
+    margin-left: 255px;
+}
+
+.adminBtn {
+    background-color: #ff7607;
+    color:white;
+    height:40px;
+}
+
+.adminPanel {
+    margin-bottom: 420px;
+}
+
+.adminOperations {
+    display: flex;
+    justify-content: center;
+}
+
+    .adminOperations a {
+        margin: 20px
+    }
+
+.adminHeading {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.userList {
+    margin-bottom: 500px;
+    margin-top: 35px;
+}
+
+
+.header-logo img{
+   width:200px;
+   margin-bottom:5px;
+}
+
+.customContainer {
+    display:flex;
+    justify-content: space-around;
+}
+
+.workerBtns{
+    margin-top:20px;
+}
+
+.hover-effect {
+    cursor: pointer;
+    color: #263a4f;
+}
+    .hover-effect:hover {
+        color: #ff7607;
+    }
+
+.sort-btns {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+    width: 600px;
+    gap: 24px;
+}
+/**/
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top:45px;
+}
+
+.asni {
+    background-color: #ff7607;
+    color:white;
+}
+
+    .asni:hover {
+        background-color: #ff8421;
+    }

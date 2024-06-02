@@ -1,0 +1,198 @@
+﻿@using BashMaistoriBG.Contracts
+@inject IRequestServices requestServices
+
+@{  
+    ViewBag.Specialties = await requestServices.GetSpecialties();
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Construction & Building HTML Template">
+    <meta name="author" content="AlexaTheme">
+
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    @*<link rel="stylesheet" href="~/BashMaistoriBG.styles.css" asp-append-version="true" />*@
+
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/favicon.png">
+    <link rel="stylesheet" href="~/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/css/themify-icons.css">
+    <link rel="stylesheet" href="~/css/elegant-line-icons.css">
+    <link rel="stylesheet" href="~/css/elegant-font-icons.css">
+    <link rel="stylesheet" href="~/css/flaticon.css">
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/slick.css">
+    <link rel="stylesheet" href="~/css/slider.css">
+    <link rel="stylesheet" href="~/css/odometer.min.css">
+    <link rel="stylesheet" href="~/css/venobox/venobox.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <script src="~/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+    @* <div class="site-preloader-wrap">
+        <div class="spinner"></div>
+        </div>*@
+    <header class="header">
+        <div class="primary-header">
+            <div class="customContainer">
+                <div class="primary-header-inner">
+                    <div class="header-logo">
+                        <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/bashLogo.png" alt="BashMaistoriBG"></a>
+                    </div>
+                    <div class="header-menu-wrap">
+                        <ul class="dl-menu">
+                            @*<li>
+                                <a asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
+                                </li>*@
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="About">За нас</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Request" asp-action="Requests">Всички заявки</a>
+                                <ul>
+                                    @foreach (var item in ViewBag.Specialties)
+                                    {
+                                        <li><a asp-area="" asp-controller="Request" asp-action="Requests" asp-route-specialtyName="@item.Name">Заявки за @item.Name</a></li>
+                                    }
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Request" asp-action="Projects">Завършени проекти</a>
+                            </li>
+                            @if (User.IsInRole("Administrator"))
+                            {
+                                <li>
+                                    <a asp-area="Admin" asp-controller="Admin" asp-action="AdminPanel">Админ панел</a>
+                                </li>
+                            }
+                            <li>
+                                <a asp-area="" asp-controller="News" asp-action="News">Новини</a>
+                            </li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="Contacts">Контакти</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-right">
+                        <a class="menu-btn" asp-area="" asp-controller="Request" asp-action="MakeRequest">Направи заявка</a>
+
+                        <div class="header-menu-wrap">
+                            <ul class="dl-menu">
+                                <partial name="_LoginPartial" />
+                            </ul>
+                        </div>
+                        <div class="mobile-menu-icon">
+                            <div class="burger-menu">
+                                <div class="line-menu line-half first-line"></div>
+                                <div class="line-menu"></div>
+                                <div class="line-menu line-half last-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*<footer class="border-top footer text-muted">
+        <div class="container">
+        &copy; 2023 - BashMaistoriBG - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+        </footer>*@
+
+    <section class="widget-section padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="widget-content">
+                        <a asp-area="" asp-action="Index" asp-controller="Home"><img src="~/img/bashLogoDark.png" alt="brand"></a>
+                        <p>Да построиш своя дом изисква желание и въображение, но е постижимо, всеки го може</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 sm-padding">
+                    <div class="widget-content">
+                        <h4>Компанията</h4>
+                        <ul class="widget-links">
+                            <li><a asp-area="" asp-action="About" asp-controller="Home">За нас</a></li>
+                            <li><a asp-area="" asp-action="Requests" asp-controller="Request">Заявките към нас</a></li>
+                            <li><a asp-area="" asp-action="Contacts" asp-controller="Home">Контакти</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 sm-padding">
+                    <div class="widget-content">
+                        <h4>ПМГ "Васил Друмев"</h4>
+                        <p>Велико Търново, ул. В.Благоева 10</p>
+
+                        <span>+359 884 96 58 46</span>
+                    </div>
+                </div>
+                @*<div class="col-lg-4 col-sm-6 sm-padding">
+                    <div class="widget-content">
+                    <h4>Newslatter Subscription</h4>
+                    <p>Subscribe and get 10% off from our <br>architecture company.</p>
+                    <div class="subscribe-box clearfix">
+                    <div class="subscribe-form-wrap">
+                    <form action="#" class="subscribe-form">
+                    <input type="email" name="email" id="subs-email" class="form-input"
+                    placeholder="Enter Your Email Address...">
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                    <div id="subscribe-result">
+                    <p class="subscription-success"></p>
+                    <p class="subscription-error"></p>
+                    </div>
+                    </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>*@
+            </div>
+        </div>
+    </section>
+
+    <a data-scroll id="scroll-to-top" onclick="scrollToTop()"><i class="arrow_carrot-up"></i></a>
+
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="~/js/vendor/bootstrap.min.js"></script>
+    <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/js/vendor/tether.min.js"></script>
+    <script src="~/js/vendor/headroom.min.js"></script>
+    <script src="~/js/vendor/owl.carousel.min.js"></script>
+    <script src="~/js/vendor/smooth-scroll.min.js"></script>
+    <script src="~/js/vendor/venobox.min.js"></script>
+    <script src="~/js/vendor/jquery.ajaxchimp.min.js"></script>
+    <script src="~/js/vendor/slick.min.js"></script>
+    <script src="~/js/vendor/waypoints.min.js"></script>
+    <script src="~/js/vendor/odometer.min.js"></script>
+    <script src="~/js/vendor/wow.min.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

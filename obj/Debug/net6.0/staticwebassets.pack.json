@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BashMaistoriBG.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BashMaistoriBG.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\elegant-font-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-font-icons.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\elegant-line-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-line-icons.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\odometer.min.css",
+      "PackagePath": "staticwebassets\\css\\odometer.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\slick.css",
+      "PackagePath": "staticwebassets\\css\\slick.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\slider.css",
+      "PackagePath": "staticwebassets\\css\\slider.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\css\\venobox\\venobox.css",
+      "PackagePath": "staticwebassets\\css\\venobox\\venobox.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\ElegantIconsd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIconsd41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.html"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400.html",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.html"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400.html",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.html"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900.html",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.html"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\404.png",
+      "PackagePath": "staticwebassets\\img\\404.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\Worker-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Worker-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\Worker-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Worker-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\Worker-3.jpg",
+      "PackagePath": "staticwebassets\\img\\Worker-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\Worker-4.jpg",
+      "PackagePath": "staticwebassets\\img\\Worker-4.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\bashLogo.png",
+      "PackagePath": "staticwebassets\\img\\bashLogo.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\bashLogoDark.png",
+      "PackagePath": "staticwebassets\\img\\bashLogoDark.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\bg-dots.png",
+      "PackagePath": "staticwebassets\\img\\bg-dots.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\comment-1.png",
+      "PackagePath": "staticwebassets\\img\\comment-1.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\comment-2.png",
+      "PackagePath": "staticwebassets\\img\\comment-2.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\comment-3.png",
+      "PackagePath": "staticwebassets\\img\\comment-3.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\comment-4.png",
+      "PackagePath": "staticwebassets\\img\\comment-4.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\content-1.jpg",
+      "PackagePath": "staticwebassets\\img\\content-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\content-2.jpg",
+      "PackagePath": "staticwebassets\\img\\content-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\counter-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\counter-bg.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\cta-bg.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\d-slide-6.jpg",
+      "PackagePath": "staticwebassets\\img\\d-slide-6.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\logo-dark.png",
+      "PackagePath": "staticwebassets\\img\\logo-dark.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\img\\logo-light.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\map-pattern.png",
+      "PackagePath": "staticwebassets\\img\\map-pattern.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\page-header.jpg",
+      "PackagePath": "staticwebassets\\img\\page-header.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-1.jpg",
+      "PackagePath": "staticwebassets\\img\\post-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-2.jpg",
+      "PackagePath": "staticwebassets\\img\\post-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-3.jpg",
+      "PackagePath": "staticwebassets\\img\\post-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-4.jpg",
+      "PackagePath": "staticwebassets\\img\\post-4.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-5.jpg",
+      "PackagePath": "staticwebassets\\img\\post-5.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\post-6.jpg",
+      "PackagePath": "staticwebassets\\img\\post-6.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-1.jpg",
+      "PackagePath": "staticwebassets\\img\\project-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-2.jpg",
+      "PackagePath": "staticwebassets\\img\\project-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-3.jpg",
+      "PackagePath": "staticwebassets\\img\\project-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-4.jpg",
+      "PackagePath": "staticwebassets\\img\\project-4.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-5.jpg",
+      "PackagePath": "staticwebassets\\img\\project-5.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-6.jpg",
+      "PackagePath": "staticwebassets\\img\\project-6.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-s-1.jpg",
+      "PackagePath": "staticwebassets\\img\\project-s-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-s-2.jpg",
+      "PackagePath": "staticwebassets\\img\\project-s-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\project-s-3.jpg",
+      "PackagePath": "staticwebassets\\img\\project-s-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\img\\slider-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\img\\slider-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\img\\slider-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor1.png",
+      "PackagePath": "staticwebassets\\img\\sponsor1.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor2.png",
+      "PackagePath": "staticwebassets\\img\\sponsor2.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor3.png",
+      "PackagePath": "staticwebassets\\img\\sponsor3.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor4.png",
+      "PackagePath": "staticwebassets\\img\\sponsor4.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor5.png",
+      "PackagePath": "staticwebassets\\img\\sponsor5.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor6.png",
+      "PackagePath": "staticwebassets\\img\\sponsor6.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor7.png",
+      "PackagePath": "staticwebassets\\img\\sponsor7.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\sponsor8.png",
+      "PackagePath": "staticwebassets\\img\\sponsor8.png"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\testi-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testi-1.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\testi-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testi-2.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\img\\testi-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testi-3.jpg"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\headroom.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\headroom.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3-respond-1.4.2.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\odometer.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\odometer.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\slick.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\smooth-scroll.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\smooth-scroll.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\tether.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\tether.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\venobox.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\venobox.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\js\\vendor\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\wow.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\BashMaistoriBG\\BashMaistoriBG\\BashMaistoriBG\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BashMaistoriBG.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BashMaistoriBG.props",
+      "PackagePath": "build\\BashMaistoriBG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BashMaistoriBG.props",
+      "PackagePath": "buildMultiTargeting\\BashMaistoriBG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BashMaistoriBG.props",
+      "PackagePath": "buildTransitive\\BashMaistoriBG.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

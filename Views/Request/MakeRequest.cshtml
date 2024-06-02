@@ -1,0 +1,48 @@
+﻿@model BashMaistoriBG.ViewModels.RequestAddViewModel
+
+@{
+    ViewData["Title"] = "Направи заявка";
+}
+
+
+<h2 class="reqHead">Направи своята заяква</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MakeRequest" asp-controller="Request" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Име</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Описание</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SpecialtyId" class="control-label">Специалист</label>
+                <select asp-for="SpecialtyId" style="color:#ff7607; height:50px;" class="form-control" asp-items="ViewBag.SpecialtyId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Budget" class="control-label">Бюджет</label>
+                <input asp-for="Budget" class="form-control" />
+                <span asp-validation-for="Budget" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label">Снимка</label>
+                <input asp-for="Image" accept="image/heic, image/png, image/jpeg, image/webp" type="file" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Направи" class="w-100 btn btn-lg logBtn" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

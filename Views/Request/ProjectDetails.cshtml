@@ -1,0 +1,28 @@
+﻿@using BashMaistoriBG.ViewModels
+
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<section class="project-single-section padding">
+    <div class="container">
+        <div class="row project-single-wrap align-items-center">
+            <div class="col-md-6 sm-padding">
+                <img src="@Model.ImageUrl" alt="img">
+            </div>
+            <div class="col-md-6 sm-padding">
+                <div class="project-single-content">
+                    <h2>@Model.Name</h2>
+                    <p>@Model.Description</p>
+                    <ul class="project-details">
+                        <li><span>Specialist Type</span>: @Model.SpecialistType</li>
+                        <li><span>Requestor</span>: @Model.RequestorName</li>
+                        <li><span>Budget</span>: @string.Format("{0:C}", Model.Budget)</li>
+                        <li><span>Start Date</span>: @Model.StartDate</li>
+                        <li><span>End Date</span>: @Model.EndDate</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

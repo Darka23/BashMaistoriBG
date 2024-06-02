@@ -1,0 +1,32 @@
+﻿@model BashMaistoriBG.Data.Models.Specialty
+
+@{
+    ViewData["Title"] = "Добави специалност";
+}
+
+<h1 class="row mt-5">Добави специалност</h1>
+
+<hr />
+<div class="row" style="margin-bottom:190px;">
+    <div class="col-md-4 mb-5">
+        <form asp-action="AddSpecialty">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Име</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Добави" class="btn btn-primary" style="background-color:#ff7607; border:none;"/>
+                <a asp-area="Admin" asp-action="AdminPanel" asp-controller="Admin" class="btn btn-primary">Обратно към Админ панела</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

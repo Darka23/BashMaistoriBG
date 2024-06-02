@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BashMaistoriBG.Data.Models.Specialty>
+
+@{
+    ViewData["Title"] = "Лист със специалности";
+}
+
+<div style="margin-left:25px; margin-top:25px;">
+    <h1 class="row">Лист със специалности</h1>
+    <a asp-action="AddSpecialty" asp-controller="Admin" asp-area="Admin" class="btn btn-primary">Добави нова</a>
+</div>
+
+<table class="table" style="margin-left:700px; width:30%; margin-bottom:300px;">
+    <thead>
+        <tr>
+            <th>
+                Име
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="font-size:27px; color:black;">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-action="EditSpecialty" asp-controller="Admin" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-success">Редактирай</a>
+                    <a asp-action="DeleteSpecialty" asp-controller="Admin" asp-area="Admin" asp-route-id="@item.Id" class="btn btn-danger">Изтрий</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
